@@ -11,7 +11,7 @@ function ProjectButton({ label, href, bgColor }) {
         border: '1px solid black',
         backgroundColor: 'transparent',
         fontFamily: 'Playfair Display, sans-serif',
-        fontSize: '0.85rem',
+        fontSize: 'clamp(.9rem, 2vw, 1.5rem)', // scales with screen
         textDecoration: 'none',
         color: '#000',
         transition: 'all 0.25s ease',

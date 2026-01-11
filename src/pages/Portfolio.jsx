@@ -12,7 +12,7 @@ const projects = [
       githubLink: 'https://github.com/jasmine-pok/budgeting-proj',
       demoVideo: 'Projects/BudgetingApp/Budgeting101-demo.mp4',
       //demoLink: 
-    },
+    }/*,
     {
       title: 'Concept - UI Systems Dashboard',
       description: 'A mock industrial dashboard that visualizes system data in a clean, modern interface.',
@@ -24,7 +24,7 @@ const projects = [
       description: 'A collection of small UI experiments inspired by Pinterest, Canva, and modern interfaces.',
       tech: ['CSS Animations', 'Layout Experiments', 'Creative UI'],
       color: '#e6d7f7',
-    },
+    },*/
   ];
   return (
        <div style={{ padding: '40px', backgroundColor: '#f2f9f7', minHeight: '100vh' }}>
