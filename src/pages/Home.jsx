@@ -30,7 +30,7 @@ function Home() {
       {/* Avatar */}
       <div style={{ marginTop: '40px' }}>
         <img
-          src="src/assets/Home/myAvatar.PNG" // replace with your image path
+          src="public/pictures/myAvatar.PNG" // replace with your image path
           alt="Sayra Rodriguez"
           style={{
             width: '120px',

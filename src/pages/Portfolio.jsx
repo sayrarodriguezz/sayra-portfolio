@@ -8,9 +8,9 @@ const projects = [
       description: 'A web app that helps users manage monthly income, expenses, and savings goals.',
       tech: ['React', 'Context API', 'Chart.js'],
       color: '#f7e7c3',
-      image: 'src/assets/Projects/BudgetingApp/Dashboard-Page.JPG',
+      image: 'public/Projects/BudgetingApp/Dashboard-Page.JPG',
       githubLink: 'https://github.com/jasmine-pok/budgeting-proj',
-      demoVideo: 'src/assets/Projects/BudgetingApp/Budgeting101-demo.mp4',
+      demoVideo: 'public/Projects/BudgetingApp/Budgeting101-demo.mp4',
       //demoLink: 
     },
     {
