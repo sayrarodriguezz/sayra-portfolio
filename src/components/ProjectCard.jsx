@@ -37,9 +37,13 @@ function ProjectCard({ project }) {
         </div>
 
       <div style={{ flex: 1 }}>
-        <h3>{project.title}</h3>
-        <p>{project.description}</p>
-        <ul>
+        <h3 style = {{fontFamily: 'Playfair Display, serif', fontSize: '1.2rem'}}>
+          {project.title}
+        </h3>
+        <p style={{ fontFamily:'Merriweather, serif', maxWidth: '600px', margin: '0 auto', fontSize: '1rem' }}>
+          {project.description}
+        </p>
+        <ul style={{ fontFamily:'Merriweather, serif', maxWidth: '600px', margin: '0 auto', fontSize: '1rem' }}>
           {project.tech.map((tech, i) => (
             <li key={i}>{tech}</li>
           ))}

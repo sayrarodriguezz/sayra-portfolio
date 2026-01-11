@@ -10,7 +10,7 @@ function ProjectButton({ label, href, bgColor }) {
         borderRadius: '20px',
         border: '1px solid black',
         backgroundColor: 'transparent',
-        fontFamily: 'Inter, sans-serif',
+        fontFamily: 'Playfair Display, sans-serif',
         fontSize: '0.85rem',
         textDecoration: 'none',
         color: '#000',

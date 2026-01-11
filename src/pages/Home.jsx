@@ -3,12 +3,14 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+
 const buttonStyle = (bgColor) => ({
   backgroundColor: bgColor,
   border: '1px solid black',
   borderRadius: '20px',
   padding: '8px 20px',
-  fontSize: '0.9rem',
+  fontSize: '1.rem',
+  fontFamily: 'Playfair Display, serif',
   cursor: 'pointer',
 });
 
@@ -44,12 +46,12 @@ function Home() {
         />
     </div>
         {/* Name */}
-        <h1 style={{ fontFamily:'Playfair Display, serif', fontSize: '3rem', marginTop: '20px' }}>
+        <h1 style={{ fontFamily:'Playfair Display, serif', fontSize: '4rem', marginTop: '20px' }}>
             Sayra Rodriguez
         </h1>
 
         {/* Intro text */}
-        <p style={{ maxWidth: '600px', margin: '0 auto', fontSize: '1rem' }}>
+        <p style={{ fontFamily:'Merriweather, serif', maxWidth: '600px', margin: '0 auto', fontSize: '1rem' }}>
             Software Engineer trying to deepen my expertise in React and modern
             front-end frameworks through personal projects. Quick learner with broad
             exposure across UI and embedded systems, now specializing in front-end
@@ -57,7 +59,7 @@ function Home() {
         </p>
 
             {/* Buttons */}
-        <div style={{ marginTop: '30px', display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <div style={{marginTop: '30px', display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <button style={buttonStyle('#f7e7c3')}onClick={() => window.open('https://www.linkedin.com/in/sayra-rodriguez-24718b21b/', '_blank')}>LinkedIn</button>
             <button style={buttonStyle('#cfe1f7')}onClick={() => window.open('https://github.com/sayrarodriguezz', '_blank')}>GitHub</button>
             <button style={buttonStyle('#e6d7f7')}onClick={() => window.open('/sayra-resume.pdf', '_blank')}>Resume</button>

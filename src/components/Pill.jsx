@@ -3,11 +3,12 @@ function Pill({ color, children }) {
     <div
       style={{
         display: 'inline-block',
+        fontFamily: 'Playfair Display, serif',
         backgroundColor: color,
         padding: '6px 16px',
         border: '1px solid black',
         borderRadius: '20px',
-        fontSize: '0.9rem',
+        fontSize: '1.2rem',
         fontWeight: 'bold',
         marginBottom: '10px',
       }}
