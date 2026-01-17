@@ -60,20 +60,25 @@ function Home() {
           </h1>
         </div>
 
-        {/* Right: About + buttons */}
+        {/* Right: About + location + buttons */}
         <div style={{ maxWidth: 'clamp(600px, 40vw, 900px)', marginTop: '130px' }}>
           <p style={{ fontFamily: 'Merriweather, serif',fontSize: 'clamp(1rem, 1.2vw, 2rem)', lineHeight: '1.5',ustifyContent: 'flex-start', marginLeft: '-30px', marginTop: '20px' }}>
-            Software Engineer trying to deepen my expertise in React and modern front-end frameworks through personal projects.
-            Quick learner with broad exposure across UI and embedded systems, now specializing in front-end development with a focus on growth and long-term impact.
+            Software Engineer specializing in React and modern front-end frameworks, with hands-on experience built through personal projects.
+            Quick learner with broad exposure across UI and embedded systems, now focused on front-end development with an emphasis on growth, usability, and long-term impact.
+          </p>
+          
+          <p style={{ fontFamily: 'Merriweather, serif', fontSize: 'clamp(0.9rem, 1vw, 1.3rem)', lineHeight: '1.4', marginLeft: '-30px', marginTop: '10px',color: '#444'}}>
+            <span style={{ fontSize: 'clamp(1.1rem, 1.2vw, 2rem)' }}> 🏡 </span> 
+            <span style={{ fontStyle: 'italic' }}> Houston, TX • Open to remote and hybrid opportunities </span>
           </p>
 
-          <div style={{ marginTop: '40px', display: 'flex', gap: '15px', flexWrap: 'wrap', justifyContent: 'flex-start', marginLeft: '-170px' }}>
-            <button style={buttonStyle('#f7e7c3')} onClick={() => window.open('https://www.linkedin.com/in/sayra-rodriguez-24718b21b/', '_blank')}>LinkedIn</button>
-            <button style={buttonStyle('#cfe1f7')} onClick={() => window.open('https://github.com/sayrarodriguezz', '_blank')}>GitHub</button>
-            <button style={buttonStyle('#e6d7f7')} onClick={() => window.open('/sayra-resume.pdf', '_blank')}>Resume</button>
-            <button style={buttonStyle('#f7cfe7')} onClick={() => navigate('/about')}>About</button>
-            <button style={buttonStyle('#f7d8c7')} onClick={() => navigate('/portfolio')}>Portfolio</button>
-          </div>
+        <div style={{ marginTop: '40px', display: 'flex', gap: '15px', flexWrap: 'wrap', justifyContent: 'flex-start', marginLeft: '-170px' }}>
+          <button style={buttonStyle('#f7e7c3')} onClick={() => window.open('https://www.linkedin.com/in/sayra-rodriguez-24718b21b/', '_blank')}>LinkedIn</button>
+          <button style={buttonStyle('#cfe1f7')} onClick={() => window.open('https://github.com/sayrarodriguezz', '_blank')}>GitHub</button>
+          <button style={buttonStyle('#e6d7f7')} onClick={() => window.open('/sayra-resume.pdf', '_blank')}>Resume</button>
+          <button style={buttonStyle('#f7cfe7')} onClick={() => navigate('/about')}>About</button>
+          <button style={buttonStyle('#f7d8c7')} onClick={() => navigate('/portfolio')}>Portfolio</button>
+        </div>
         </div>
       </div>
     </div>
