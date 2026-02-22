@@ -32,12 +32,13 @@ This project reflects my specialization in **React and modern front-end developm
 src/
 ├── components/
 │ ├── Navbar.jsx
-│ ├── ProjectCard.jsx
+│ ├── Pill.jsx
 │ ├── ProjectButton.jsx
+│ ├── ProjectCard.jsx
 │
 ├── pages/
-│ ├── Home.jsx
 │ ├── About.jsx
+│ ├── Home.jsx
 │ ├── Portfolio.jsx
 │
 ├── App.jsx
