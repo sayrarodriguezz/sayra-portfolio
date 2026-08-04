@@ -64,7 +64,7 @@ function Home() {
           <div style={{ maxWidth: 'clamp(600px, 40vw, 900px)', marginTop: '130px' }}>
             <p style={{ fontFamily: 'Merriweather, serif', fontSize: 'clamp(1rem, 1.2vw, 2rem)', lineHeight: '1.5', ustifyContent: 'flex-start', marginLeft: '-30px', marginTop: '20px' }}>
               Software Engineer with experience modernizing enterprise applications and building modern frontend experiences.
-              Quick learner with broad exposure across UI and embedded systems, now focused on front-end development with an emphasis on growth, usability, and long-term impact.
+              With experience across UI systems and embedded software, I'm now focused on frontend development with an emphasis on usability, maintainability, and long-term impact.
             </p>
 
             <p style={{ fontFamily: 'Merriweather, serif', fontSize: 'clamp(0.9rem, 1vw, 1.3rem)', lineHeight: '1.4', marginLeft: '-30px', marginTop: '10px', color: '#444' }}>
