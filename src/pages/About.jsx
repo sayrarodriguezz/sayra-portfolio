@@ -46,7 +46,7 @@ I currently work on a UI systems team, where I collaborate on modern JavaScript-
         <section style={{ marginTop: '40px' }}>
           <Pill color="#f7cfe7">MY JOURNEY</Pill>
           <p style={{ fontFamily:'Merriweather, serif', maxWidth: '600px', margin: '0 auto', fontSize: '1rem' }}>
-           I began my career through a rotation program, gaining exposure to embedded systems and UI development before specializing in front-end work.
+           I began my career through a rotation program, gaining exposure to embedded systems and UI development before developing a strong interest in front-end work.
            This background helps me think holistically about how interfaces connect to underlying systems.
           </p>
         </section>
